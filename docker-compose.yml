@@ -1,7 +1,7 @@
 services:
   app:
     build: .
-    container_name: app-test01
+    container_name: aura-app
     ports: ["80:3000"]
     restart: unless-stopped
 
